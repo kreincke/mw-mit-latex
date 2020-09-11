@@ -7,21 +7,23 @@
 </p>
 
 <p align="center">
-  <a href="#development">Development</a> •
-  <a href="#documentation">Documentation</a> •
-  <a href="#support-and-feedback">Support</a> •
-  <a href="#how-to-contribute">Contribute</a> •
-  <a href="#contributors">Contributors</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#prerequisites">Prerequisites</a> •
+  <a href="#build">Build</a> •
+  <a href="#modifications">Modifications</a> •
   <a href="#licensing">Licensing</a>
 </p>
 
 This project delivers the sources and make-files to compile a LaTeX based tutorial how to successfully use methods of the musicology in a LaTeX document. It reviews the given tools and explains their use by referring to its own code.
 
-## Status
+## Contributing
 
-Release <#1.4.0#> : ready to be used
+Contribution and feedback is encouraged and always welcome. Please use the GitHub methods *pull request* and *issues* to do so. If you contribute anything, you agree
+* to publish your work under the terms of the CC-BY-SA license
+* to be named in the file AUTHORS and in the section 'DANKSAGUNG'
+* to be attributed by the general derivation statement (see *LICENSING*)
 
-## Compilation
+Here are the details you need to participate in the development
 
 ### Prerequisites
 
@@ -41,17 +43,10 @@ If you need further information to prepare your system, please have look at the 
 * Change into the main directory
 * open a shell and type ``make``
 
-### Modify
+### Modifications
 * Download or clone the repository ``musicology.ltx``
 * For improving the content modify the files in  ``musicology.ltx/sources/snippets``
 * For reorganizing the structure modify the files in  ``musicology.ltx/sources``
-
-## Contributing
-
-Contribution and feedback is encouraged and always welcome. Please use the GitHub methods *pull request* and *issues* to do so. If you contribute anything, you agree
-* to publish your work under the terms of the CC-BY-SA license
-* to be named in the file AUTHORS and in the section 'DANKSAGUNG'
-* to be attributed by the general derivation statement (see *LICENSING*)
 
 ## Licensing
 
