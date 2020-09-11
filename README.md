@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://github.com/kreincke/musicology.ltx/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/kreincke/musicology.ltx?style=flat"></a>
     <a href="https://github.com/kreincke/musicology.ltx/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/kreincke/musicology.ltx?style=flat"></a>
-    <a href="https://github.com/kreincke/musicology.ltx/blob/master/COPYING" title="License"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?style=flat"></a>
+    <a href="https://github.com/kreincke/musicology.ltx/blob/master/LICENSE" title="License"><img src="https://img.shields.io/badge/License-CCBYSA-blue.svg?style=flat"></a>
 </p>
 
 <p align="center">
