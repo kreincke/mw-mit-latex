@@ -1,4 +1,4 @@
-#  musicology.ltx, a self referential tutorial about musicology in LaTeX, written in German
+#  mw-mit-latex, a self referential review and tutorial about musicology in LaTeX, written in German
 
 <p align="center">
     <a href="https://github.com/kreincke/musicology.ltx/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/kreincke/musicology.ltx?style=flat"></a>
