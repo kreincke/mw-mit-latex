@@ -52,11 +52,11 @@ If you need further information to prepare your system, please have look at the 
 
 Copyright (c) 2020 Karsten Reincke.
 
-All files of *musicology.txt* are licensed under the terms of the [CC-BY-SA](LICENSE); you may not use the files except in compliance with this license.
+All files of *mw-mit-latex* are licensed under the terms of the [CC-BY-SA](LICENSE); you may not use the files except in compliance with this license.
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
 You fulfill the BY condition of this license by integrating the following hint into a prominent place of your work:
 
-* Derived from the GitHub project [musicology.ltx](https://github.com/kreincke/musicology.ltx) which has been released under the terms of the CC-BY-SA license by © 2019ff K. Reincke and Contributors
-* Abgeleitet vom GitHub-Projekt [musicology.ltx](https://github.com/kreincke/musicology.ltx), das von © 2019ff K. Reincke und Kontributoren unter den Bedingungen der Lizenz *CC-BY-SA*  veröffentlicht worden ist.
+* Derived from the GitHub project [mw-mit-latex](https://github.com/kreincke/mw-mit-latex) which has been released under the terms of the CC-BY-SA license by © 2019ff K. Reincke and Contributors
+* Abgeleitet vom GitHub-Projekt [mw-mit-latex](https://github.com/kreincke/mw-mit-latex), das von © 2019ff K. Reincke und Kontributoren unter den Bedingungen der Lizenz *CC-BY-SA*  veröffentlicht worden ist.
