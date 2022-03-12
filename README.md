@@ -1,4 +1,6 @@
-#  mwm.ltx = Musikwissenschaft mit LaTeX (a self referential review and tutorial about musicology in LaTeX, written in German)
+#  mwm.ltx = Musikwissenschaft mit LaTeX 
+
+**_a self referential review and tutorial about musicology in LaTeX, written in German_**
 
 <p align="center">
     <a href="https://github.com/kreincke/musicology.ltx/commits/" title="Last Commit"><img src="https://img.shields.io/github/last-commit/kreincke/musicology.ltx?style=flat"></a>
