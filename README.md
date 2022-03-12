@@ -1,4 +1,4 @@
-#  mwm.ltx = Musikwissenschaft mit LaTeX 
+#  mwm.ltx: Musikwissenschaft mit LaTeX 
 
 **_a self referential review and tutorial about musicology in LaTeX, written in German_**
 
