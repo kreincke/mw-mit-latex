@@ -1,4 +1,4 @@
-ISNM=latex-musicology
+ISNM=mwm.ltx
 ISWD=${ISNM}
 SRCD=source
 LPWD=lily

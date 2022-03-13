@@ -35,7 +35,7 @@ Kombinationsmöglichkeiten vgl.][4ff]{WegWeg2007a}:
 
 \subsection{\small Rhythmik}
 
-Zunächst enthält es gute aufgelöste Kodierungen für Taktarten \{ 
+Zunächst enthält es gute aufgelöste Kodierungen für Taktarten \{
 \Takt{3}{4} \ (= \texttt{\small \textbackslash{Takt}\{3\}\{4\}}),
 \Takt{4}{4} \ (= \texttt{\small \textbackslash{Takt}\{4\}\{4\}}),
 \ldots,
@@ -49,13 +49,20 @@ Dann offeriert es nicht nur einfache Notenlängen \{
 \Acht \ (= \texttt{\small \textbackslash{Acht}}),
 \Sech \ (= \texttt{\small \textbackslash{Sech}}),
 \Zwdr \ (= \texttt{\small \textbackslash{Zwdr}}),
-\}  -- \ die sogar punktiert werden können 
+\}  -- \ die sogar punktiert werden können
 \{
 \Halb\Pu \ (= \texttt{\small \textbackslash{Halb}\textbackslash{Pu}}),
 \Vier\Pu \ (= \texttt{\small \textbackslash{Vier}\textbackslash{Pu}}),
 \ldots
 \}
--- ,
+-- , und die dazu passenden Pausensymbole
+\{
+\GaPa \ (= \texttt{\small \textbackslash{GaPa}}),
+\HaPa \ (= \texttt{\small \textbackslash{HaPa}}),
+\ViPa \ (= \texttt{\small \textbackslash{ViPa}}),
+\AcPa \ (= \texttt{\small \textbackslash{AcPa}}),
+\SePa \ (= \texttt{\small \textbackslash{SePa}}),
+\},
 sondern es stellt auch Symbole für Noten mit waagerechtem Balken zu Verfügung
 \{
 \AchtBL \ (= \texttt{\small \textbackslash{AchtBL}}),
@@ -63,7 +70,7 @@ sondern es stellt auch Symbole für Noten mit waagerechtem Balken zu Verfügung
 \Vier\AchtBL \ (= \texttt{\small \textbackslash{Vier} \textbackslash{AchtBL} }),
 \Vier\SechBL \ (= \texttt{\small \textbackslash{Vier} \textbackslash{SechBL} }),
 \ldots
-\}, 
+\},
 sodass die einzelnen Elemente -- als Syntagmen aneinandergereiht -- zu ganzen
 Rhythmusketten kombiniert werden können:
 \Takt{c}{0} \Vier \ \Vier\AchtBL \ \Vier\Pu \ \Acht \ $|$ \AchtBR\Pu \SechBl \
@@ -105,7 +112,7 @@ Verfügung:
 Selbstverständlich können diese ebenfalls in das allgemeine Tupelkonstrukt
 eingebettet werden\footcite[Vgl. dazu][6]{WegWeg2007a}:
 \begin{center}
- \texttt{\textbackslash{HH}.\textbackslash{DD}.5\textbackslash{VM}.7...} 
+ \texttt{\textbackslash{HH}.\textbackslash{DD}.5\textbackslash{VM}.7...}
  $\rightarrow$ \HH.\DD.5\VM.7...
 \end{center}
 
@@ -113,14 +120,14 @@ Zudem erlaubt es die Flexibilität des Grundkonstruktes (in gewissen Grenzen),
 Symbole für die Stufentheorie und den Generalbass zu erzeugen:
 
 \begin{center}
-\HH.I..\texttt{(5)}.\texttt{(3)}.. \ 
-\HH.III..\texttt{ 6 }.\texttt{(3)}.. \ 
-\HH.V..\texttt{ 6}.\texttt{ 4}.. \ 
-\HH.I..\texttt{(5)}.\texttt{(3)}.. \ 
-\HH.I..\texttt{(5)}.\texttt{ 3$\flat$ }.. \ 
-\HH.III..\texttt{ 6 }.\texttt{ 3$\flat$}.. \ 
-\HH.III..\texttt{ 6 }.\texttt{ 5 }.\texttt{(3)}. \ 
-\HH.III..\texttt{ 6$\flat$}.\texttt{ 3$\flat$}.. \ 
+\HH.I..\texttt{(5)}.\texttt{(3)}.. \
+\HH.III..\texttt{ 6 }.\texttt{(3)}.. \
+\HH.V..\texttt{ 6}.\texttt{ 4}.. \
+\HH.I..\texttt{(5)}.\texttt{(3)}.. \
+\HH.I..\texttt{(5)}.\texttt{ 3$\flat$ }.. \
+\HH.III..\texttt{ 6 }.\texttt{ 3$\flat$}.. \
+\HH.III..\texttt{ 6 }.\texttt{ 5 }.\texttt{(3)}. \
+\HH.III..\texttt{ 6$\flat$}.\texttt{ 3$\flat$}.. \
 \end{center}
 
 An diesem Beispiel erkennt man außerdem, dass sich die
@@ -129,14 +136,14 @@ An diesem Beispiel erkennt man außerdem, dass sich die
 lassen:
 \begin{verbatim}
 \begin{center}
-\HH.I..\texttt{(5)}.\texttt{(3)}.. \ 
-\HH.III..\texttt{ 6 }.\texttt{(3)}.. \ 
-\HH.V..\texttt{ 6}.\texttt{ 4}.. \ 
-\HH.I..\texttt{(5)}.\texttt{(3)}.. \ 
-\HH.I..\texttt{(5)}.\texttt{ 3$\flat$ }.. \ 
-\HH.III..\texttt{ 6 }.\texttt{ 3$\flat$}.. \ 
-\HH.III..\texttt{ 6 }.\texttt{ 5 }.\texttt{(3)}. \ 
-\HH.III..\texttt{ 6$\flat$}.\texttt{ 3$\flat$}.. \ 
+\HH.I..\texttt{(5)}.\texttt{(3)}.. \
+\HH.III..\texttt{ 6 }.\texttt{(3)}.. \
+\HH.V..\texttt{ 6}.\texttt{ 4}.. \
+\HH.I..\texttt{(5)}.\texttt{(3)}.. \
+\HH.I..\texttt{(5)}.\texttt{ 3$\flat$ }.. \
+\HH.III..\texttt{ 6 }.\texttt{ 3$\flat$}.. \
+\HH.III..\texttt{ 6 }.\texttt{ 5 }.\texttt{(3)}. \
+\HH.III..\texttt{ 6$\flat$}.\texttt{ 3$\flat$}.. \
 \end{center}
 \end{verbatim}
 

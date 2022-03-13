@@ -56,21 +56,7 @@ Anschließend erlaubt das Paket, Vorzeichen \{
 und Metren wie \meterCutC \ (= \texttt{\small \textbackslash{meterCutC}})
 in den Fließtext einzuarbeiten.
 
-Gleichwohl gibt es dabei einige 'Ungereimtheiten', die den Gebrauch erschweren:
-\begin{itemize}
-  \item Zum ersten muss man das Paket \textit{MusiX\TeX}, sofern man es zusammen
-  mit \textit{musicology} verwenden will, nach \textit{musicology} in die Präambel
-  einbinden. Andernfalls 'meckert' \textit{musicology}, dass der Befehl
-  \texttt{meterC} schon definiert sei. Bindet man \textit{MusiX\TeX} tatsächlich
-  nach \textit{musicology} ein, kann \textit{MusiX\TeX} den von \textit{musicology}
-  eingeführten Befehl offensichtlich problemlos redefinieren. Leider passen die
-  Symbole dann -- wie man hier sehen kann -- von der Größe her nicht mehr zu
-  einander: \textit{musicology} $\rightarrow$ \meterCutC : \meterC $\leftarrow$
-  \textit{MusiX\TeX}.
-  \item Außerdem sind die Symbole für die Achtel- (\musEighth) und die
-  Sechzehntelnoten (\musSixteenth) aus Musikersicht unbrauchbar. Solche Zeichen
-  gibt es in der Musik(wissenschaft) nicht.
-\end{itemize}
+Gleichwohl gibt es 'Ungereimtheiten', die den Gebrauch erschwert: Zunächst muss man das Paket \textit{MusiX\TeX}, sofern man es zusammen mit \textit{musicology} verwenden will, nach \textit{musicology} in die Präambel einbinden. Andernfalls 'meckert' \textit{musicology}, dass der Befehl \texttt{meterC} schon definiert sei. Bindet man \textit{MusiX\TeX} tatsächlich nach \textit{musicology} ein, kann \textit{MusiX\TeX} zwar den von \textit{musicology} eingeführten Befehl problemlos redefinieren. Nur passen die Symbole dann -- wie hier zu sehen -- von der Größe her nicht mehr zu einander: \textit{musicology} $\rightarrow$ \meterCutC : \meterC $\leftarrow$ \textit{MusiX\TeX}.
 
 Wenn man dieses Paket verwenden will, ist also eine gewisse Vorsicht angesagt.
 
