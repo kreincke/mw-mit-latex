@@ -46,9 +46,9 @@ If you need further information to prepare your system, please have look at the 
 * open a shell and type ``make``
 
 ### Modifications
-* Download or clone the repository ``musicology.ltx``
-* For improving the content modify the files in  ``musicology.ltx/sources/snippets``
-* For reorganizing the structure modify the files in  ``musicology.ltx/sources``
+* Download or clone the repository ``mwm.ltx``
+* For improving the content modify the files in  ``mwm.ltx/sources/snippets``
+* For reorganizing the structure modify the files in  ``mwm.ltx/sources``
 
 ## Licensing
 
